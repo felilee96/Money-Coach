@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D072D8D6-62A2-47EB-A107-2C6304522410"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A10422B-06D1-4319-8AE8-2A0131FD0206"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/addGoalViewController.swift"
+            timestampString = "613830689.675019"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "addGoalViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB12BEE8-E8B6-4728-AED9-A1F34AD25BD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/addGoalViewController.swift"
+            timestampString = "613830689.6751159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "addGoalViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "FB12BEE8-E8B6-4728-AED9-A1F34AD25BD7 - 3da310ba04e429fd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addGoalViewController.textCountlbl.getter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addGoalViewController.swift"
+                  timestampString = "613305319.564917"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "FB12BEE8-E8B6-4728-AED9-A1F34AD25BD7 - 5922615bb57209e9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addGoalViewController.textCountlbl.setter : weak Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addGoalViewController.swift"
+                  timestampString = "613305319.5806119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "106">
+               </Location>
+               <Location
+                  uuid = "FB12BEE8-E8B6-4728-AED9-A1F34AD25BD7 - a33752e96108f21b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addGoalViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Money_Coach.addGoalViewController"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addGoalViewController.swift"
+                  timestampString = "613305319.582587"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "287">
+               </Location>
+               <Location
+                  uuid = "FB12BEE8-E8B6-4728-AED9-A1F34AD25BD7 - b267e7ee2cbbf853"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addGoalViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Money_Coach.addGoalViewController&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addGoalViewController.swift"
+                  timestampString = "613305319.586351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "258">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

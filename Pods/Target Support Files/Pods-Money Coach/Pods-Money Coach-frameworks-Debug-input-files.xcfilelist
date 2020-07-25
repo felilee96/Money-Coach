@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-Money Coach/Pods-Money Coach-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Charts/Charts.framework
+${BUILT_PRODUCTS_DIR}/ProgressMeter/ProgressMeter.framework
+${BUILT_PRODUCTS_DIR}/Realm/Realm.framework
+${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework
+${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework

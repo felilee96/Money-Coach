@@ -1,0 +1,36 @@
+PODS:
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - ProgressMeter (0.1.6)
+  - Realm (5.0.2):
+    - Realm/Headers (= 5.0.2)
+  - Realm/Headers (5.0.2)
+  - RealmSwift (5.0.2):
+    - Realm (= 5.0.2)
+  - SwiftCharts (0.6.5)
+
+DEPENDENCIES:
+  - Charts (~> 3.5)
+  - ProgressMeter
+  - RealmSwift (= 5.0.2)
+  - SwiftCharts (~> 0.6)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - ProgressMeter
+    - Realm
+    - RealmSwift
+    - SwiftCharts
+
+SPEC CHECKSUMS:
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  ProgressMeter: f24e399e876e4eb63a800d26639f1777b31e8a74
+  Realm: 6b6f096671b64b04d08974177cabb2ff9343d153
+  RealmSwift: a3db6be0488bf3e1d5314c2956cefe98a65cdd01
+  SwiftCharts: 2e755ea292f0b87d3e4b2c1eb5afc080a20cdc15
+
+PODFILE CHECKSUM: 46fc5571aed4c25e5b25862868150026e064d420
+
+COCOAPODS: 1.9.3

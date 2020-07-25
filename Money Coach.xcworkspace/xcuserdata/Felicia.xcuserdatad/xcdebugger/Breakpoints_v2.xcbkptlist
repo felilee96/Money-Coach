@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E92C6789-05DD-4406-89AC-235C7D90199E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A29E0420-CB47-481F-8115-0995ED85AED5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "budgetReportViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 1cdc5559c575f248"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.budgetBarChart.getter : Swift.Optional&lt;SwiftCharts.BarsChart&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 60441014b92fbd14"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.budgetBarChart.setter : Swift.Optional&lt;SwiftCharts.BarsChart&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "139">
+               </Location>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 1a01254cb5f67315"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.budgetBarChart.modify : Swift.Optional&lt;SwiftCharts.BarsChart&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 693459413dc1b4b7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.budgetBarChart.modify : Swift.Optional&lt;SwiftCharts.BarsChart&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 1443d3643496cab7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Money_Coach.budgetReportViewController"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "2F56084A-6A5B-4528-A9EA-C8C07C7FD9C0 - 525d1a1d895ab417"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.budgetReportViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Money_Coach.budgetReportViewController&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/budgetReportViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "102">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "53F50721-5ACF-4B31-BF1B-336686E2D031"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/addTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "prepareForSegue(segue:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7AF2790A-7179-4CB3-AF84-2D6D6D2ACE1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/goalSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "436"
+            endingLineNumber = "436"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54441DCE-134D-4B50-A20E-4608C8F13F96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/goalSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "443"
+            endingLineNumber = "443"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67B5BECB-C6CE-4354-BA5B-4836CB91C7B1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "178"
+            endingLineNumber = "178"
+            landmarkName = "ExpensesReportViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6781A936-02DC-4827-8A76-A1DF2D1D526D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/addTransactionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "addTransactionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - 1bf37470510111ed"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.pickerDataCat.getter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - 3b100a1842c38de1"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.pickerDataCat.setter : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - 654cc6c765ec6cf2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.pickerDataCat.modify : Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - d6845df244880e5e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.pickerDataCat.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - f2370384c0504c8d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Money_Coach.addTransactionViewController"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1702">
+               </Location>
+               <Location
+                  uuid = "54A6C330-3F08-4B2F-A6E0-2E5593A929C2 - d90b408ec9099c0b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.addTransactionViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Money_Coach.addTransactionViewController&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach/Money%20Coach/addTransactionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1637">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F4A01D2-E37C-4019-8F8F-1B16ECFDE39C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/reminderListingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "readAllBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "304A8093-0384-492F-A36D-717CF367A567"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "getCATGroceries()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23A7B3AD-9D71-4145-B955-0FF119E623F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D17550B0-63E3-4A94-A5DE-CD94EA575EE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F10C624-5EF7-47EF-A952-6B7B9BC59B7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D860ED5-4B4B-4776-A391-91397D5F27C1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/ExpensesReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C2B67A2-0FFD-4406-8FD8-26B5BB662D1F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "searchTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4EBDED8A-56BD-4D52-9C41-5F9E05A6C5F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "236"
+            endingLineNumber = "236"
+            landmarkName = "searchTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "011B01D8-79C6-411F-BAB6-046923DCB959"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "235"
+            endingLineNumber = "235"
+            landmarkName = "searchTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A4B125A-9626-4EED-8336-46BDF63A30A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/budgetReportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/goalListTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "goalListTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - d3e451aa7723a33"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.goalAmountIcon.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - acd0388e0630ee07"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.goalAmountIcon.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - 2218c901d2069134"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.goalAmountIcon.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - 1e978baa5d4d0010"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.goalAmountIcon.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - ce1cc40ace3d9725"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; Money_Coach.goalListTableViewCell"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1080">
+               </Location>
+               <Location
+                  uuid = "AB61F75B-76C2-420F-B978-6B22F9A8F3B5 - 855e0ba85f203833"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Money_Coach.goalListTableViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Money_Coach.goalListTableViewCell&gt;"
+                  moduleName = "Money Coach"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MacUser/Desktop/Money%20Coach%202/Money%20Coach/goalListTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "1021">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48CE918D-78FA-45DD-BFD6-46E34B65C8CB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Money Coach/goalSettingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "519"
+            endingLineNumber = "519"
+            landmarkName = "goalSettingViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
