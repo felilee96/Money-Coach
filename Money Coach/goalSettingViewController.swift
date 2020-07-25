@@ -505,15 +505,12 @@ class goalSettingViewController: UIViewController, UITableViewDelegate,UITableVi
     func getSavings(){
         let realm = try! Realm()
         let allSavingsData = realm.objects(Transaction.self).filter("type = 'Savings'")
+        
         if allSavingsData.count>0{
             for dataSavings in allSavingsData{
             currentVal += dataSavings.amount
                                 }
         }
-    }
-    //function to update the cell color when the Goal expired or Completed
-    func updateCellColor(){
-        
     }
     
 }

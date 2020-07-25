@@ -19,13 +19,16 @@ class ViewController: UIViewController {
         
 
     // Ask user permission to send notifications
-    let center = UNUserNotificationCenter.current()
-        center.requestAuthorization(options: [.alert,.sound]) { (granted, error) in
-            //if user denied to give access
-            if error != nil {
-                print("Please grant Money Coach the access to send you notifications.")
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound]) { success, error in
+        if success {
+            UserDefaults.standard.set(true, forKey: "settingValue")
+            print("All set!")
+        } else if let error = error {
+            UserDefaults.standard.set(false, forKey: "settingValue")
+
+            print(error.localizedDescription)
         }
-            
+    }
     // create and set the notification contents for 12PM reminder
     let content1 = UNMutableNotificationContent()
     //content title & body
@@ -64,13 +67,15 @@ class ViewController: UIViewController {
             
     let request2 = UNNotificationRequest (identifier: uuidString2, content: content2, trigger: trigger8PM)
             
-            center.add(request1) { error in
+           //if notification successfully tiggered, save into database
+        UNUserNotificationCenter.current().add(request1) { error in
                 if error != nil {
                        print("Error has occur.")
-                   } else {
+                   }
+                else {
                           //write all data into database
-                                     let realm = try! Realm ()
-                                     let reminder = Reminder()
+                    let realm = try! Realm ()
+                    let reminder = Reminder()
                     reminder.content = content1.body
                     reminder.createdDate = Date()
                         try! realm.write {
@@ -79,21 +84,24 @@ class ViewController: UIViewController {
                    }
                }
             
-            center.add(request2) { error in
+            UNUserNotificationCenter.current().add(request2) { error in
                 if error != nil {
                         print("Error has occur.")
-                   } else {
+                   }
+                else {
                        //write all data into database
                         let realm = try! Realm ()
-                            let reminder = Reminder()
+                        let reminder = Reminder()
                        reminder.content = content2.body
                     reminder.createdDate = Date()
+                    try! realm.write {
+                        realm.add (reminder)
+                    }
 
                    }
                }
+        
         }
-        }
-   
-    
-}
+    }
+
 

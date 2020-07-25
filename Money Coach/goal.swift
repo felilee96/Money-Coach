@@ -18,6 +18,8 @@ class Goal: Object{
     @objc dynamic var goalDueDate = Date()
     @objc dynamic var remindDate = Date()
     @objc dynamic var status: String = " "
+    @objc dynamic var createdDate = Date()
+
   
      
        override static func primaryKey() -> String? {

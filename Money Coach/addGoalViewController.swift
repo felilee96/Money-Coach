@@ -223,7 +223,8 @@ class addGoalViewController: UIViewController,UIPickerViewDelegate, UIPickerView
             goal.targetSavings = Double(targetSavingsTxtField.text!)!
             goal.goalDueDate = formatter4.date(from: goalDueDateTxtField.text!)!
             goal.status = "New"
-           // goal.remindDate = formatter4.date(from: remindDatetxtField.text!)!
+            goal.createdDate = Date()
+            //goal.remindDate = formatter4.date(from: remindDatetxtField.text!)!
             var myval = realm.objects(Goal.self).map{$0.goalid}.max() ?? 0
             myval = myval + 1
             goal.goalid = myval

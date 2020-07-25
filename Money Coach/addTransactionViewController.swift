@@ -336,10 +336,9 @@ class addTransactionViewController: UIViewController, UIPickerViewDelegate, UIPi
     }}
     //Redirect user back to Budget Overview when the Dismiss button is clicked
     func dismissTapped(){
-        dismiss(animated: true) {
             self.performSegue(withIdentifier: "FinishSaveTransxSegue", sender: self)
 
-        }
+        
     }
     func navigationController(navigationController: UINavigationController, willShowViewController viewController: UIViewController, animated: Bool) {
         if let controller = viewController as? budgetOverviewViewController {

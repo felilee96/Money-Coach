@@ -12,7 +12,9 @@ import RealmSwift
 
 class ExpensesReportViewController: UIViewController {
     
-    //define and initialise the sum for the expenses of each category
+    @IBOutlet var noDataInfo: UIView!
+    
+  //define and initialise the sum for the expenses of each category
      var sumCATFood: Double = 0.0
      var sumCATGroceries: Double = 0.0
      var sumCATBills: Double = 0.0
@@ -68,6 +70,13 @@ class ExpensesReportViewController: UIViewController {
      var fromDateData = Date()
      var toDateData = Date()
     
+    
+@IBAction func Dismiss(_ sender: UIButton) {
+        self.noDataInfo.removeFromSuperview()
+performSegue(withIdentifier: "goToAddTransaction", sender: nil)
+
+    }
+    
      //when the view is loaded
     override func viewDidLoad() {
         
@@ -87,6 +96,12 @@ class ExpensesReportViewController: UIViewController {
          getCATElectronic()
          getCATHolidays()
          getCATOthers()
+        
+        if sumCATFood == 0.0 && sumCATGroceries == 0 && sumCATBills == 0.0 && sumCATTransportation == 0.0 && sumCATEntertainment == 0.0 && sumCATRental == 0.0 && sumCATShopping == 0.0 && sumCATHealth == 0.0 && sumCATSport == 0.0 && sumCATEducation == 0.0 && sumCATElectronic == 0.0 && sumCATHolidays == 0.0 && sumCATOthers == 0.0{
+            self.view.addSubview(self.noDataInfo)
+            self.noDataInfo.center = self.view.center
+            
+        }
                 
         // when this view is loaded, get current month & year for filter the data
         let dateFormatter = DateFormatter()
