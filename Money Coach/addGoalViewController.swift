@@ -236,32 +236,16 @@ class addGoalViewController: UIViewController,UIPickerViewDelegate, UIPickerView
                  content1.title = "Daily Reminder to log your transactions!"
                   content1.body = "Hey! Remember to log your transactions for today to achieve your budget plan.❤️"
                        
-            let remindDate = remindDatetxtField.text
-             print("remindDatetxtField.text", remindDate)
+              print("remindDatetxtField.text", remindDate)
+             
             
-            let inputFormatter = DateFormatter()
-            inputFormatter.dateFormat = "MMM dd',' yyyy 'at' HH:mm:ss"
-            let showDate = inputFormatter.date(from: remindDate!)
-            inputFormatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ"
-            let resultString = inputFormatter.string(from: showDate!)
-            print("remindDatetxtField.text result", resultString)
-
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
-            let date = dateFormatter.date(from: remindDate!)
+            let calendar = Calendar.current
+            let components: DateComponents = calendar.dateComponents([.minute, .hour, .day, .month, .year, .second], from: remindDate)
+            //calendar.dateComponents(unitFlags, from: Date(), to: remindDate)
             
-            print("remindDatetxtField.text", date)
-
-//            let isoDate = "2016-04-14T10:44:00+0000"
-//Jul 28, 2020 at 7:29 PM
-        
-//            let dateFormatter  = DateFormatter()
-       
-             let reminddate = Calendar.current.dateComponents([.year, .month, .day], from:
-                dateFormatter.date(from: remindDatetxtField.text!)!)
-
+            print("components ", components)
                // 12 PM daily reminder will be send when device's time reached 12 PM
-            let trigger12PM = UNCalendarNotificationTrigger(dateMatching: reminddate, repeats: false)
+            let trigger12PM = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
            
                //create the notification request
                let uuidString1 = UUID().uuidString
@@ -350,7 +334,7 @@ class addGoalViewController: UIViewController,UIPickerViewDelegate, UIPickerView
           }
 
           view.endEditing(true)
-    } 
+    }
     
     //Function to create a date picker
     func createDatePicker(){
