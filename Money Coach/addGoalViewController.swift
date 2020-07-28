@@ -230,8 +230,61 @@ class addGoalViewController: UIViewController,UIPickerViewDelegate, UIPickerView
             goal.goalid = myval
 
 
+            // create and set the notification contents for 12PM reminder
+               let content1 = UNMutableNotificationContent()
+               //content title & body
+                 content1.title = "Daily Reminder to log your transactions!"
+                  content1.body = "Hey! Remember to log your transactions for today to achieve your budget plan.❤️"
+                       
+            let remindDate = remindDatetxtField.text
+             print("remindDatetxtField.text", remindDate)
+            
+            let inputFormatter = DateFormatter()
+            inputFormatter.dateFormat = "MMM dd',' yyyy 'at' HH:mm:ss"
+            let showDate = inputFormatter.date(from: remindDate!)
+            inputFormatter.dateFormat = "yyyy'-'MM'-'dd'T'HH':'mm':'ssZZZ"
+            let resultString = inputFormatter.string(from: showDate!)
+            print("remindDatetxtField.text result", resultString)
+
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+            let date = dateFormatter.date(from: remindDate!)
+            
+            print("remindDatetxtField.text", date)
+
+//            let isoDate = "2016-04-14T10:44:00+0000"
+//Jul 28, 2020 at 7:29 PM
+        
+//            let dateFormatter  = DateFormatter()
+       
+             let reminddate = Calendar.current.dateComponents([.year, .month, .day], from:
+                dateFormatter.date(from: remindDatetxtField.text!)!)
+
+               // 12 PM daily reminder will be send when device's time reached 12 PM
+            let trigger12PM = UNCalendarNotificationTrigger(dateMatching: reminddate, repeats: false)
+           
+               //create the notification request
+               let uuidString1 = UUID().uuidString
+            
+              //create request and set contents and identifier for each notification (reminder)
+               let request1 = UNNotificationRequest (identifier: uuidString1, content: content1, trigger: trigger12PM)
+                       
+            
+                       
+                      //if notification successfully tiggered, save into database
+                   UNUserNotificationCenter.current().add(request1) { error in
+                           if error != nil {
+                                  print("Error has occur.")
+                              }
+                           else {
+                                     //write all data into database
+                            print("success")
+                          }
+                   }
+                        
+                    
+        
             try! realm.write {
-                
                 realm.add (goal)
             }
             //reset all input field
@@ -297,7 +350,7 @@ class addGoalViewController: UIViewController,UIPickerViewDelegate, UIPickerView
           }
 
           view.endEditing(true)
-    }
+    } 
     
     //Function to create a date picker
     func createDatePicker(){

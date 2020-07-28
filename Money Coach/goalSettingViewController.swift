@@ -175,7 +175,6 @@ class goalSettingViewController: UIViewController, UITableViewDelegate,UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        getSavings()
         //getTargetSavings()
         
         //trigger the database
@@ -411,6 +410,7 @@ class goalSettingViewController: UIViewController, UITableViewDelegate,UITableVi
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "goalListTableViewCell", for: indexPath) as! goalListTableViewCell
         let goal = listToDisplay[indexPath.row]
+        getSavings(goal: goal)
         // return each data from database into respective labels on the customised table view cell
         cell.goalTitlelbl.text = goal.title
         cell.goalTargetlbl.text = "RM " + String (goal.targetSavings)
@@ -420,6 +420,7 @@ class goalSettingViewController: UIViewController, UITableViewDelegate,UITableVi
         let formatter = DateFormatter()
         formatter.dateFormat = "dd/MM/yyyy"
         cell.goalDuelbl.text = formatter.string(from: goal.goalDueDate)
+        
         var percent: Float = Float(currentVal/goal.targetSavings*100)
         
     //if the calculated percentage>100, set the percentage to 100
@@ -502,13 +503,20 @@ class goalSettingViewController: UIViewController, UITableViewDelegate,UITableVi
     
     
 
-    func getSavings(){
+    func getSavings(goal: Goal){
         let realm = try! Realm()
-        let allSavingsData = realm.objects(Transaction.self).filter("type = 'Savings'")
+        currentVal = 0
+
+        let dateFormatter = DateFormatter()
+        let goal_date =  dateFormatter.string(from:goal.createdDate)
         
+        print("dataSavings. goal", goal.targetSavings ,  goal.createdDate)
+        let allSavingsData = realm.objects(Transaction.self).filter("type = 'Savings' AND date >= %@", goal.createdDate)
+
         if allSavingsData.count>0{
             for dataSavings in allSavingsData{
-            currentVal += dataSavings.amount
+                print("dataSavings.date",dataSavings.amount, dataSavings.date)
+                currentVal += dataSavings.amount
                                 }
         }
     }

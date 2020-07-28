@@ -139,28 +139,24 @@ class budgetOverviewViewController: UIViewController, UITableViewDelegate,UITabl
     }
    
   override func viewDidLayoutSubviews() {
-    if let index =  indexToEdit {
-        if objectArray.count>0{
-          let editItem = objectArray[index]
-            }
-          
+   
     }
-    }
-//
+    
+
 //        if let index =  indexToEdit {
 //          if objectArray.count>0{
 //            let editItem = objectArray[index]
-////            edit_Amount.text = String(editItem.amount)
-////            edit_Type.text = editItem.type
-////            edit_category.text = editItem.category
-//////            let dateFormatter = DateFormatter()
-//////            dateFormatter.dateFormat = "dd/MM/yyyy"
-//////            let date_edit =  dateFormatter.string(from:editItem.date )
-//////            edit_date.text = String(date_edit)
+//            edit_Amount.text = String(editItem.amount)
+//            edit_Type.text = editItem.type
+//            edit_category.text = editItem.category
+////            let dateFormatter = DateFormatter()
+////            dateFormatter.dateFormat = "dd/MM/yyyy"
+////            let date_edit =  dateFormatter.string(from:editItem.date )
+////            edit_date.text = String(date_edit)
 //          }
-//
+
 //       }
-//
+
 //  }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if objectArray.count == 0{
@@ -386,7 +382,26 @@ class budgetOverviewViewController: UIViewController, UITableViewDelegate,UITabl
      
      let edit = UIContextualAction(style: .normal, title: "Edit") { (action, view, completionHandler: (Bool) -> ()) in
         self.indexToEdit = indexPath.row
+        
+ 
+               if self.objectArray.count>0{
+                let editItem = self.objectArray[self.indexToEdit! ]
+                   print("editItem " , editItem.amount )
+                   print("editItem id " , editItem.id )
+
+                    self.edit_Amount.text = String(editItem.amount)
+                 self.edit_Type.text = editItem.type
+                            self.edit_category.text = editItem.category
+                            let dateFormatter = DateFormatter()
+                            dateFormatter.dateFormat = "MMM dd, yyyy"
+                            let date_edit =  dateFormatter.string(from:editItem.date )
+                            self.edit_date.text = String(date_edit)
+                   }
+                 
+          
+        
         self.view.addSubview(self.popOverEdit)
+        
         self.popOverEdit.center = self.view.center
      }
      edit.image = UIImage(named: "edit-icon")
@@ -444,9 +459,25 @@ class budgetOverviewViewController: UIViewController, UITableViewDelegate,UITabl
         formatter3.timeStyle = .none
         edittedDate = formatter3.date(from: edit_date.text!)!
         
-           try! realm.write {
-            realm.create(Transaction.self, value: ["amount":Double(edit_Amount.text!)! , "type":edit_Type.text!, "category":edit_category.text!,"date": edittedDate], update: .modified)
+           let editItem = self.objectArray[self.indexToEdit! ]
+            
+            print("editItem update id" , editItem.id)
+            let transactions = realm.objects(Transaction.self).filter("id == " + String(editItem.id))
+
+            let realm = try! Realm()
+            if let transaction = transactions.first {
+                try! realm.write {
+                    transaction.amount = Double(edit_Amount.text!)!
+                    transaction.type = edit_Type.text!
+                    transaction.category = edit_category.text!
+                    transaction.date = edittedDate
+                }
             }
+            
+//           try! realm.write {
+//
+//            realm.create(Transaction.self, value: ["amount":Double(edit_Amount.text!)! , "type":edit_Type.text!, "category":edit_category.text!,"date": edittedDate], update: .modified)
+//            }
         //declare an alert when goal title txtfield is empty
                let updateAlert = UIAlertController(title: "Your transaction details is succesfully updated.", message: nil, preferredStyle:.alert)
                //add action to trigger the alert
