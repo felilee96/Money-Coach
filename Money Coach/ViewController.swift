@@ -49,7 +49,7 @@ class ViewController: UIViewController {
    dateComponents1.hour = 12
    dateComponents1.minute = 00
     // set reminder at 8 PM daily
-    dateComponents2.hour = 20
+    dateComponents2.hour = 20 // 20
     dateComponents2.minute = 00
 
     // 12 PM daily reminder will be send when device's time reached 12 PM
@@ -74,34 +74,18 @@ class ViewController: UIViewController {
                    }
                 else {
                           //write all data into database
-                    let realm = try! Realm ()
-                    let reminder = Reminder()
-                    reminder.content = content1.body
-                    reminder.createdDate = Date()
-                        try! realm.write {
-                            realm.add (reminder)
-                        }
-                   }
+                
                }
+        }
             
             UNUserNotificationCenter.current().add(request2) { error in
                 if error != nil {
                         print("Error has occur.")
                    }
                 else {
-                       //write all data into database
-                        let realm = try! Realm ()
-                        let reminder = Reminder()
-                       reminder.content = content2.body
-                    reminder.createdDate = Date()
-                    try! realm.write {
-                        realm.add (reminder)
-                    }
-
+                      
                    }
                }
         
         }
     }
-
-

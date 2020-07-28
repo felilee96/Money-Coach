@@ -7,16 +7,18 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let notificationCenter = UNUserNotificationCenter.current()
 
- 
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        notificationCenter.delegate = self
         // Override point for customization after application launch.
         return true
     }
@@ -46,3 +48,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+
+
+extension AppDelegate: UNUserNotificationCenterDelegate {
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        print("inside notification received")
+        let realm = try! Realm ()
+                        let reminder = Reminder()
+                        reminder.content = response.notification.request.content.body
+                        reminder.createdDate = Date()
+                            try! realm.write {
+                                realm.add (reminder)
+                            }
+                
+        completionHandler()
+    }
+
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        print("inside notification foreground")
+
+        let realm = try! Realm ()
+                              let reminder = Reminder()
+                              reminder.content = notification.request.content.body
+                              reminder.createdDate = Date()
+                                  try! realm.write {
+                                      realm.add (reminder)
+                                  }
+        completionHandler([.alert, .sound, .badge]) //required to show notification when in foreground
+    }
+
+}

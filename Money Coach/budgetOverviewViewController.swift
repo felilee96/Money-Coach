@@ -399,6 +399,9 @@ class budgetOverviewViewController: UIViewController, UITableViewDelegate,UITabl
     @IBAction func updateBtn(_ sender: UIButton) {
         //check the user input
         //when input in amountTextField is equal to 0 or empty
+        
+        print("inside update")
+        
         if edit_Amount.text == "0.00" || edit_Amount.text == ""{
             //declare an alert when amount is empty
             let emptyamountAlert = UIAlertController(title: "Please input any transaction amount greater than 0", message: nil, preferredStyle:.alert)
